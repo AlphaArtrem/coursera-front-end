@@ -19,3 +19,13 @@ In this task you will be adding appropriate formatting to the web page contents 
 ## Task 3
 
 In this task you will use some responsive utilities provided by Bootstrap to hide some of the content only for extra small screens. You will make use of the d-none and d-sm-block CSS classes provided by Bootstrap. To understand how to use these classes, please read the documentation [here](http://getbootstrap.com/docs/4.0/utilities/display/) (in particular see how the combination of classes shown [here](http://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements) enables you to hide the content for xs screen sizes) to learn how to apply the d-none and d-sm-block classes. This will get you into the habit of consulting the Bootstrap documentation whenever you need to learn more about the various components and classes of Bootstrap. You should apply the classes so that the <p> elements containing the detailed descriptions of the corporate leadership is hidden only for extra small screens. Thus, your page should look like the figure below on extra small screens.
+
+# Screenshots
+
+## Task 1-2
+
+![Task-1-2](img/sm-lg.png)
+
+## Task 3
+
+![Task-3](img/xs.png)
