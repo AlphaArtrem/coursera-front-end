@@ -22,3 +22,13 @@ In this task you will be adding a block-sized button to the Jumbotron to the rig
 
 * The block-level button and the restaurant logo should share the right six columns of the row. The restaurant name and description can now be reduced to occupy the left six columns. Use the small button (btn-sm).
 * Clicking on the button should take you down to the form for reserving a table.
+
+# Screenshots
+
+## SM-MD Screen
+
+![Task-1-2](img/sm-md.png)
+
+## XS-Screen
+
+![Task-3](img/xs.png)
