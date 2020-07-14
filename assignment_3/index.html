@@ -81,12 +81,85 @@
                 </div>
                 <div class="col-12 col-sm align-self-center">
                     <br>
-                    <a role="button" class="btn btn-block nav-link btn-warning"
-                    data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
-                    data-placement="bottom" href="#reserveform">Reserve Table</a>                </div>
+                    <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal" data-target="#reserveModal">Reserve Table</a>               
+                </div>
             </div>
         </div>
     </header>
+
+    <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reserve A Table</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            <p>Number Of Guests</p>
+                        </div>
+                        <div class="col-12 col-sm-10">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="1" class="custom-control-input" name="reservationForm">
+                                <label class="custom-control-label" for="1">1</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="2" class="custom-control-input" name="reservationForm">
+                                <label class="custom-control-label" for="2">2</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="3" name="reservationForm">
+                                <label class="custom-control-label" for="3">3</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="4" name="reservationForm">
+                                <label class="custom-control-label" for="4">4</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline" name="reservationForm">
+                                <input type="radio" class="custom-control-input" id="5">
+                                <label class="custom-control-label" for="5">5</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline" name="reservationForm">
+                                <input type="radio" class="custom-control-input" id="6">
+                                <label class="custom-control-label" for="6">6</label>
+                            </div>
+                        </div>
+                        <div class="col-12 d-sm-none">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            <p>Date And Time</p>
+                        </div>
+                        <div class="col-12 col-sm-10">
+                            <form>
+                                <div class="form-row">
+                                  <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Date">
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Time">
+                                  </div>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-sm-none">
+                            <br>
+                            <a href="#" class="btn btn-primary">Reserve</a>
+                        </div>
+                        <div class="col-12 offset-2 d-none d-sm-block">
+                            <a href="#" class="btn btn-primary">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row row-content">
@@ -186,78 +259,6 @@
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class='row row-content align-items-center'>
-            <div class='col-sm-2 d-none d-sm-block'>
-            </div>
-            <div class='col-12 col-sm-8'>
-                <div class="card">
-                    <h3 class="card-header text-white bg-warning">Featured</h3>
-                    <div class="card-body">
-                    <div class="row">
-                        <div class="col-12 col-sm-2">
-                            <p>Number Of Guests</p>
-                        </div>
-                        <div class="col-12 col-sm-10">
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="1" class="custom-control-input" name="reservationForm">
-                                <label class="custom-control-label" for="1">1</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="2" class="custom-control-input" name="reservationForm">
-                                <label class="custom-control-label" for="2">2</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="3" name="reservationForm">
-                                <label class="custom-control-label" for="3">3</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="4" name="reservationForm">
-                                <label class="custom-control-label" for="4">4</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline" name="reservationForm">
-                                <input type="radio" class="custom-control-input" id="5">
-                                <label class="custom-control-label" for="5">5</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline" name="reservationForm">
-                                <input type="radio" class="custom-control-input" id="6">
-                                <label class="custom-control-label" for="6">6</label>
-                            </div>
-                        </div>
-                        <div class="col-12 d-sm-none">
-                            <br>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-2">
-                            <p>Date And Time</p>
-                        </div>
-                        <div class="col-12 col-sm-10">
-                            <form>
-                                <div class="form-row">
-                                  <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control" placeholder="Date">
-                                  </div>
-                                  <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control" placeholder="Time">
-                                  </div>
-                                </div>
-                              </form>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 d-sm-none">
-                            <br>
-                            <a href="#" class="btn btn-primary">Reserve</a>
-                        </div>
-                        <div class="col-12 offset-2 d-none d-sm-block">
-                            <a href="#" class="btn btn-primary">Reserve</a>
-                        </div>
-                    </div>
-                    </div>
-                  </div>
             </div>
         </div>
     </div>
