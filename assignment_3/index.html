@@ -132,6 +132,22 @@
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-2">
+                            <p>Section</p>
+                        </div>
+                        <div class="col-12 col-sm-10">
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+                                </label>
+                                <label class="btn btn-danger">
+                                  <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
                             <p>Date And Time</p>
                         </div>
                         <div class="col-12 col-sm-10">
@@ -148,11 +164,18 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 d-sm-none">
+                        <div class="col-1 d-sm-none">
+                            <br>
+                            <a data-toggle="modal" data-target="#reserveModal" class="btn btn-secondary" style="color:white">Cancel</a>
+                        </div>
+                        <div class="col-1 offset-2 d-none d-sm-block mr-3">
+                            <a data-toggle="modal" data-target="#reserveModal" class="btn btn-secondary" style="color:white">Cancel</a>
+                        </div>
+                        <div class="col-1 d-sm-none">
                             <br>
                             <a href="#" class="btn btn-primary">Reserve</a>
                         </div>
-                        <div class="col-12 offset-2 d-none d-sm-block">
+                        <div class="col-1 d-none d-sm-block">
                             <a href="#" class="btn btn-primary">Reserve</a>
                         </div>
                     </div>
@@ -311,11 +334,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
-
-s<script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-</script>
-
 </html>
