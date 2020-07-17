@@ -14,3 +14,11 @@ In this assignment, you will continue to work with the website that you have bee
 * Designed a form to enable users to submit a reservation request for a table. Note that at this stage the form will be inactive. This form should have been included in a new content row that you create just before the footer of the page.
 * Formatted the contents of the second row of the page using media class. The content column of the row should have been converted to a media object. In addition it should include a badge.
 * Added a button to the Jumbotron to enable users to access the form to reserve a table at the restaurant. Clicking on this button should take you to the reservation form at the bottom of the page.
+
+## Assignment 3: Bootstrap JavaScript Components
+In this assignment, you will continue to work with the website that you have been developing in the exercises. You will edit the home page (index.html). You will start with the current home page at the end of the last exercise in this module. At the end of this assignment, you should have completed the following tasks:
+
+* Moved the table reservation form from the last content row into a modal.
+* Included a radio button group in the table reservation form to enable diners to ask for a table in the smoking/non-smoking section of the restaurant.
+* Removed the tooltip from the Reserve Table button.
+* Updated the Reserve Table button to show the modal containing the table reservation form when the button is clicked.
